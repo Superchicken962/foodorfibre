@@ -1,0 +1,12 @@
+.title-1 {
+    text-align: center;
+    padding: 16px;
+    background-color: aqua;
+    border: 5px outset grey;
+    width: 55%;
+    margin: auto;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
