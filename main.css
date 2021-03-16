@@ -90,3 +90,47 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.boxinfo1-title {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: fixed;
+    left: 35%;
+    top: -100%;
+    border: 5px black solid;
+    animation-name: boxinfo1-title;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;  
+}
+
+.boxinfo1 {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: fixed;
+    left: 15%;
+    top: 100%;
+    border: 5px black solid;
+    animation-name: boxinfo1;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards; 
+}
+
+/*Keyframes for animation*/
+@keyframes boxinfo1-title {
+    0% {left:35%; top: -100%;}
+    100% {left:35%; top:30%; color: black;}
+}
+
+@keyframes boxinfo1 {
+    0% {left:15%; top: 100%;}
+    100% {left:15%; top:43%; color: black;}
+}
+/*Back to styling*/
