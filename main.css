@@ -157,8 +157,8 @@ li.dropdown {
 
 /*Keyframes for animation*/
 @keyframes boxinfo1-title {
-    0% {left: 41%; top: -100%;}
-    100% {left:41%; top:30%; color: black;}
+    0% {left: 39%; top: -100%;}
+    100% {left:39%; top:30%; color: black;}
 }
 
 @keyframes boxinfo1 {
@@ -167,12 +167,22 @@ li.dropdown {
 }
 
 @keyframes boxinfo2-title {
+    0% {left: 41%; top: -100%;}
+    100% {left:41%; top:30%; color: black;}
+}
+
+@keyframes boxinfo2 {
+    0% {left:15%; top: 100%;}
+    100% {left:15%; top:43%; color: black;}
+}
+
+@keyframes boxinfo3-title {
     0% {left: 100%; top: 16%; opacity:1%;}
     15% {opacity: 0.2%;}
     100% {left:45%; top:16%; color: black;}
 }
 
-@keyframes boxinfo2 {
+@keyframes boxinfo3 {
     0% {left:-100%; top: 29%; opacity:1%;}
     15% {opacity: 0.2%;}
     100% {left:15%; top:29%; color: black;}
