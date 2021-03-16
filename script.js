@@ -17,7 +17,7 @@ function speaknitrogencycle() {
     msg.voice = voices[10]; 
     msg.volume = 1; // From 0 to 1
     msg.rate = 1; // From 0.1 to 10
-    msg.pitch = 2; // From 0 to 2
+    msg.pitch = 1; // From 0 to 2
     msg.text = "The nitrogen cycle is the cycle of which nitrogen is converted into different and multiple chemicals as the nitrogen circulates in the atmosphere. The process doesn’t end and loops back for whichever happens. Now, for the explanation of the process for the nitrogen cycle and the processes. Let us start with the animal, living life until death. In the case the animal does not go to waste, the animal is decomposed and then turned into ammonium (NH4). How exciting, the animal will then proceed to nitrification and become nitrites (NO2), then nitrates (NO3). There are two paths the nitrates takes from here; one is that nitrates go into plants which can die and decompose or get eaten by an animal and have the process start again. The second path is more interesting, the nitrates become atmospheric nitrogen (N2). the atmospheric nitrogen goes back into the soil and can either live with the legume roots or go back into ammonification and start all again.";
     window.speechSynthesis.speak(msg);
 }
