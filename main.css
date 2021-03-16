@@ -201,7 +201,7 @@ li.dropdown {
     animation-duration: 3s;
     animation-delay: 1s;
     animation-fill-mode: forwards;  
-    width: 74%;
+    width: 70%;
 }
 
 .boxinfo4 {
@@ -220,6 +220,38 @@ li.dropdown {
     animation-fill-mode: forwards; 
 }
 
+.boxinfo5-title {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: fixed;
+    left: 100%;
+    top: 16%;
+    border: 5px black solid;
+    animation-name: boxinfo5-title;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;  
+    width: 74%;
+}
+
+.boxinfo5 {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: fixed;
+    left: -100%;
+    top: -100%;
+    border: 5px black solid;
+    animation-name: boxinfo5;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards; 
+}
 
 /*Keyframes for animation*/
 @keyframes boxinfo1-title {
@@ -256,10 +288,20 @@ li.dropdown {
 
 @keyframes boxinfo4-title {
     0% {left: 100%; top: 100%;}
-    100% {left:17.5%; top:22%; color: black;}
+    100% {left:20%; top:22%; color: black;}
 }
 
 @keyframes boxinfo4 {
+    0% {left:-100%; top: -100%;}
+    100% {left:20%; top:40%; color: black;}
+}
+
+@keyframes boxinfo5-title {
+    0% {left: 100%; top: 100%;}
+    100% {left:17.5%; top:22%; color: black;}
+}
+
+@keyframes boxinfo5 {
     0% {left:-100%; top: -100%;}
     100% {left:20%; top:40%; color: black;}
 }
