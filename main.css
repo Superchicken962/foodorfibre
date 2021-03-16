@@ -187,6 +187,40 @@ li.dropdown {
     animation-fill-mode: forwards; 
 }
 
+.boxinfo4-title {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: fixed;
+    left: 100%;
+    top: 16%;
+    border: 5px black solid;
+    animation-name: boxinfo4-title;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;  
+    width: 74%;
+}
+
+.boxinfo4 {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: fixed;
+    left: -100%;
+    top: -100%;
+    border: 5px black solid;
+    animation-name: boxinfo4;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards; 
+}
+
+
 /*Keyframes for animation*/
 @keyframes boxinfo1-title {
     0% {left: 39%; top: -100%;}
@@ -218,4 +252,14 @@ li.dropdown {
     0% {left:-100%; top: 29%; opacity:1%;}
     15% {opacity: 0.2%;}
     100% {left:15%; top:29%; color: black;}
+}
+
+@keyframes boxinfo4-title {
+    0% {left: 100%; top: 100%;}
+    100% {left:17.5%; top:22%; color: black;}
+}
+
+@keyframes boxinfo4 {
+    0% {left:-100%; top: -100%;}
+    100% {left:20%; top:40%; color: black;}
 }
