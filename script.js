@@ -57,3 +57,15 @@ function speakclimatechange() {
     msg.text = "Refer to figure 3, this is the agricultural cycle. As observed in the image, you can see that Nitrous oxide, methane and carbon dioxide are released into the atmosphere from different ways. As you can see, fire will release methane, carbon dioxide and nitrous oxide. Methane can also be released from animals when they belch. Manure can release methane and nitrous oxide or be used as fertilizer which will eventually release carbon dioxide by soil respiration. According to europeanscientists.com, a shift to plant-based diets and limiting meat consumption by 60 grams per each person could reduce the agricultural emissions by up to 8 gigatons of carbon, yearly.";
     window.speechSynthesis.speak(msg);
 }
+
+function speakplantdietcarbon() {
+    var msg = new SpeechSynthesisUtterance();
+    msg.lang = 'en';
+    var voices = window.speechSynthesis.getVoices();
+    msg.voice = voices[10]; 
+    msg.volume = 1; // From 0 to 1
+    msg.rate = 1; // From 0.1 to 10
+    msg.pitch = 2; // From 0 to 2
+    msg.text = "The carbon cycle is simple, animals’ breath in oxygen and feed on the plants, they then breathe out carbon dioxide, which is taken in by the plants. When an animal or plant dies, it is decomposed and released as carbon dioxide. You could think of it as an infinite cycle. But then there were humans. Humans mostly eat meat, or animals, if you will. Some have “plant-based diets.” Now, according to (n/a, 2021); researchers found that the diets of people who eat more than 3.5 ounces of meat per day— about the size of a deck of playing cards—generate 15.8 pounds of carbon-dioxide equivalent (CO2e) each day, whereas vegetarians and vegans are responsible for 8.4 pounds and 6.4 pounds of CO2e, respectively. That’s almost half of the amount of CO2e generated when on a non-carnivorous diet, compared to the 7.4 pounds more that is made when eating meat. Too much carbon dioxide in the atmosphere will cause more heat to be trapped in the earth, like a greenhouse. Plant-based diets can be beneficial and will be beneficial, but the carbon cycle cannot recycle if there are no plants to photosynthesize. This will not likely happen as long as we are planting new plants when we take the old ones.";
+    window.speechSynthesis.speak(msg);
+}

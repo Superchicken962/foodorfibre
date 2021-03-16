@@ -280,6 +280,40 @@ li.dropdown {
     animation-fill-mode: forwards; 
 }
 
+.boxinfo6-title {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: absolute;
+    left: 100%;
+    top: 16%;
+    border: 5px black solid;
+    animation-name: boxinfo6-title;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;  
+    width: 74%;
+}
+
+.boxinfo6 {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: absolute;
+    left: -100%;
+    top: -100%;
+    border: 5px black solid;
+    animation-name: boxinfo6;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards; 
+    width: 80%;
+}
+
 /*Keyframes for animation*/
 @keyframes boxinfo1-title {
     0% {left: 39%; top: -100%;}
@@ -330,15 +364,25 @@ li.dropdown {
 
 @keyframes boxinfo5 {
     0% {left:-100%; top: -100%;}
-    100% {left:18%; top:40%; color: black;}
+    100% {left:16%; top:40%; color: black;}
 }
 
 @keyframes boxinfo5-image {
     0% {left:-100%; top: 200%;}
-    100% {left:39%; top:83%; color: black;}
+    100% {left:39%; top:88%; color: black;}
 }
 
 @keyframes boxinfo5-textbg {
     0% {left:-100%; top: 200%;}
     100% {left:15%; top:0%; color: black;}
+}
+
+@keyframes boxinfo6-title {
+    0% {left: -100%; top: -100%;}
+    100% {left:19%; top:24%; color: black;}
+}
+
+@keyframes boxinfo6 {
+    0% {left:100%; top: 100%;}
+    100% {left:18%; top:40%; color: black;}
 }
