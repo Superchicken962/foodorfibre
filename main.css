@@ -98,7 +98,7 @@ li.dropdown {
     margin: auto;
     background-color: violet;
     position: fixed;
-    left: 35%;
+    left: 41%;
     top: -100%;
     border: 5px black solid;
     animation-name: boxinfo1-title;
@@ -123,14 +123,57 @@ li.dropdown {
     animation-fill-mode: forwards; 
 }
 
+.boxinfo2-title {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: fixed;
+    left: 100%;
+    top: 16%;
+    border: 5px black solid;
+    animation-name: boxinfo2-title;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;  
+}
+
+.boxinfo2 {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: fixed;
+    left: -100%;
+    top: 29%;
+    border: 5px black solid;
+    animation-name: boxinfo2;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards; 
+}
+
 /*Keyframes for animation*/
 @keyframes boxinfo1-title {
-    0% {left:35%; top: -100%;}
-    100% {left:35%; top:30%; color: black;}
+    0% {left: 41%; top: -100%;}
+    100% {left:41%; top:30%; color: black;}
 }
 
 @keyframes boxinfo1 {
     0% {left:15%; top: 100%;}
     100% {left:15%; top:43%; color: black;}
 }
-/*Back to styling*/
+
+@keyframes boxinfo2-title {
+    0% {left: 100%; top: 16%; opacity:1%;}
+    15% {opacity: 0.2%;}
+    100% {left:45%; top:16%; color: black;}
+}
+
+@keyframes boxinfo2 {
+    0% {left:-100%; top: 29%; opacity:1%;}
+    15% {opacity: 0.2%;}
+    100% {left:15%; top:29%; color: black;}
+}
