@@ -45,3 +45,15 @@ function speakextension() {
     msg.text = "A plant-based diet for the human population could be possible. There are some people who are already on full plant-based diets, which is fine but them forcing this upon other people may influence the public in the other direction and to them not taking on a semi plant diet. We do not have to rule out meat altogether, meat consumption just needs to be controlled and limited. A start to this could be advertising how the cycles work and educating the population. Easing into this will take a fair while but in the end, emissions will be reduced.";
     window.speechSynthesis.speak(msg);
 }
+
+function speakclimatechange() {
+    var msg = new SpeechSynthesisUtterance();
+    msg.lang = 'en';
+    var voices = window.speechSynthesis.getVoices();
+    msg.voice = voices[10]; 
+    msg.volume = 1; // From 0 to 1
+    msg.rate = 1; // From 0.1 to 10
+    msg.pitch = 2; // From 0 to 2
+    msg.text = "Refer to figure 3, this is the agricultural cycle. As observed in the image, you can see that Nitrous oxide, methane and carbon dioxide are released into the atmosphere from different ways. As you can see, fire will release methane, carbon dioxide and nitrous oxide. Methane can also be released from animals when they belch. Manure can release methane and nitrous oxide or be used as fertilizer which will eventually release carbon dioxide by soil respiration. According to europeanscientists.com, a shift to plant-based diets and limiting meat consumption by 60 grams per each person could reduce the agricultural emissions by up to 8 gigatons of carbon, yearly.";
+    window.speechSynthesis.speak(msg);
+}

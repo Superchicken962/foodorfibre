@@ -288,20 +288,20 @@ li.dropdown {
 
 @keyframes boxinfo4-title {
     0% {left: 100%; top: 100%;}
-    100% {left:20%; top:22%; color: black;}
+    100% {left:19%; top:22%; color: black;}
 }
 
 @keyframes boxinfo4 {
     0% {left:-100%; top: -100%;}
-    100% {left:20%; top:40%; color: black;}
+    100% {left:18%; top:40%; color: black;}
 }
 
 @keyframes boxinfo5-title {
-    0% {left: 100%; top: 100%;}
-    100% {left:17.5%; top:22%; color: black;}
+    0% {left: -100%; top: 100%;}
+    100% {left:19%; top:22%; color: black;}
 }
 
 @keyframes boxinfo5 {
     0% {left:-100%; top: -100%;}
-    100% {left:20%; top:40%; color: black;}
+    100% {left:18%; top:40%; color: black;}
 }
