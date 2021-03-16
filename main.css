@@ -161,7 +161,7 @@ li.dropdown {
     display: block;
     margin: auto;
     background-color: violet;
-    position: fixed;
+    position: absolute;
     left: 100%;
     top: 16%;
     border: 5px black solid;
@@ -177,7 +177,7 @@ li.dropdown {
     display: block;
     margin: auto;
     background-color: violet;
-    position: fixed;
+    position: absolute;
     left: -100%;
     top: 29%;
     border: 5px black solid;
@@ -314,6 +314,74 @@ li.dropdown {
     width: 80%;
 }
 
+.boxinfo7-title {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: absolute;
+    left: 100%;
+    top: 16%;
+    border: 5px black solid;
+    animation-name: boxinfo7-title;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;  
+    width: 74%;
+}
+
+.boxinfo7 {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: absolute;
+    left: -100%;
+    top: -100%;
+    border: 5px black solid;
+    animation-name: boxinfo7;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards; 
+    width: 80%;
+}
+
+.boxinfo8-title {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: absolute;
+    left: 100%;
+    top: 16%;
+    border: 5px black solid;
+    animation-name: boxinfo8-title;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;  
+    width: 74%;
+}
+
+.boxinfo8 {
+    text-align: center;
+    color: white;
+    display: block;
+    margin: auto;
+    background-color: violet;
+    position: absolute;
+    left: -100%;
+    top: -100%;
+    border: 5px black solid;
+    animation-name: boxinfo8;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards; 
+    width: 80%;
+}
+
 /*Keyframes for animation*/
 @keyframes boxinfo1-title {
     0% {left: 39%; top: -100%;}
@@ -384,5 +452,31 @@ li.dropdown {
 
 @keyframes boxinfo6 {
     0% {left:100%; top: 100%;}
+    100% {left:18%; top:40%; color: black;}
+}
+
+@keyframes boxinfo7-title {
+    0% {left: -100%; top: -100%;}
+    50% {left:100%; top: 100%;}
+    100% {left:19%; top:24%; color: black;}
+}
+
+@keyframes boxinfo7 {
+    0% {left:100%; top: 100%;}
+    50% {left:-100%; top: -100%;}
+    100% {left:18%; top:40%; color: black;}
+}
+
+@keyframes boxinfo8-title {
+    0% {left: 19%; top: -100%;}
+    25% {left: 19%; top: 100%;}
+    75% {left: 90%; top: 24%;}
+    100% {left:19%; top:24%; color: black;}
+}
+
+@keyframes boxinfo8 {
+    0% {left:18%; top: 100%;}
+    25% {left:18%; top: -100%;}
+    75% {left:-90%; top: 40%}
     100% {left:18%; top:40%; color: black;}
 }
